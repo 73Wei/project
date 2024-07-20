@@ -3,6 +3,7 @@
 img{
     max-width: 100%;
     height: auto;
+    vertical-align: middle
 } 
 
 *,*:before,*:after{
@@ -18,9 +19,8 @@ body{
 
 /* 表頭區域 */
 .container-header{
-    display: flex;
     max-width: 1296px;
-    margin: 0auto;
+    margin: 0 auto;
     background: #ffffff;
     border-bottom: 1px solid #F1F1F1;
     padding: 32px 0px;
@@ -311,7 +311,7 @@ body{
     width: 120px;
     height: 54px;
 }
-.footer-title h2{
+.footer-title p{
     color: #3b3b3b;
     font-size: 20px;
 }
@@ -369,8 +369,6 @@ body{
         padding: 4px 24px;
     }
 }
-
-  
 
 
   
